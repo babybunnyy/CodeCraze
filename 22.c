@@ -29,5 +29,3 @@ void conversion(double *b,char *a,int n){
 		}
 	}
 }
-
-
