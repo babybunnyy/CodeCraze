@@ -15,6 +15,7 @@ struct date advanceDay(struct date);
 
 int main(void) {
 	struct date today, tomorrow;
+	printf("please enter year,month and date: ");
 	readDate(&today);
 	printDate(today);
 	tomorrow = advanceDay(today);
