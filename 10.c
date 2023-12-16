@@ -6,7 +6,8 @@ int main(void){
 	int n; // number of cities
 	scanf("%d",&n);
 
-	int i,j;
+	int i;
+	int j = 0;
 	int city;
 
 	for(i=0;i<n;i++){
