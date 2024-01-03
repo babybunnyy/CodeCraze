@@ -1,0 +1,25 @@
+#include <stdio.h>
+// Use an array of structures
+struct point{
+	int x;
+	int y;
+};
+void readtrig(struct point *);
+void printrig(struct point *);
+int main(void){
+	struct point trig[3];
+	readtrig(&trig);
+	printrig(trig[0]);
+	return 0;
+}
+void readtrig(struct point * p ){
+	for(int i=0;i<3;i++){
+		printf("Enter x and y : ");
+		scanf("%d %d",&p->x,&p->y);
+	}
+}
+void printrig(struct point *p[0]){
+	for(int i=0;i<3;i++){
+		printf("(%d,%d)\n");
+	}
+}
