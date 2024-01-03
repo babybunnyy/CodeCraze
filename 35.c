@@ -1,4 +1,5 @@
 #include <stdio.h>
+// Create structures from user input
 // pass structures to functions
 struct date {
         int year;
