@@ -1,0 +1,71 @@
+h1,h2,p{
+    text-align: center;
+    margin-top: 0;
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h2{
+    font-size: 30px;
+    margin-bottom: 5px;;
+}
+
+h1,h2{
+    font-family:'Courier New', Courier, monospace;
+}
+
+body{
+    font-family: Tahoma; 
+    background-image: url(https://i.pinimg.com/564x/0f/cb/31/0fcb31d387e3692082ad88b67dc3279b.jpg);
+    padding: 20px;
+}
+
+.menu{
+    background-color: rgb(71, 220, 170);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+.country{
+    text-align: left;
+    width: 75%;
+    padding-left: 10px;;
+}
+
+.price{
+    text-align: right;
+    width: 20%;
+}
+
+.item p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+hr{
+    background-color: rgb(9, 83, 5);
+    border-color: rgb(9, 83, 5);
+    height: 2px;
+}
+
+.bottom-line{
+    margin-top: 10px;
+}
+
+footer{
+    font-size: 15px;
+}
+
+
+.address{
+    margin-bottom: 1px;
+}
