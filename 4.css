@@ -75,8 +75,20 @@ body {
     display: inline; 
   }
 
-  a {
+  a:link {
     color: #dfdfe2;
+  }
+
+  a:visited {
+    color: cyan;
+  }
+
+  a:hover {
+    color:#49103c
+  }
+
+  a:active{
+    color: pink;
   }
 
   .selector{
