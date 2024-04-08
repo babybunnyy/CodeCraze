@@ -5,17 +5,18 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="5.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     </head>
     <body>
         <h1 id="title">Survey-form</h1>
         <p id="description">Survey Description</p>
         <form id="survey-form" method="post" action='https://example-server.com'>
-            <label for="name" id="name-label">Name: <input id="name" type="text" placeholder="Enter your name" required></label>
+            <label for="name" id="name-label">Name: <input id="name" type="text" placeholder="Enter your name" required ></label>
             <label for="email" id="email-label">Email: <input id="email" type="email" placeholder="Enter your Email" required></label>
             <label for="number" id="number-label">Age: <input id="number" type="number" min="5" max="100" placeholder="Age" required></label>
             <legend>Which one do you like the most?</legend>
-            <label><input value="preference-1" type="checkbox" name="preference">Yes</label>
-            <label><input value="preference-2" type="checkbox" name="preference">No</label>
+            <label><input value="preference-1" type="checkbox" name="preference" class="inline">Yes</label>
+            <label><input value="preference-2" type="checkbox" name="preference" class="inline">No</label>
             <label>Which option best describes your current role?
                 <select id="dropdown">
                     <option value="">Select current role</option>
@@ -26,8 +27,8 @@
                 </select>
             </label>
             <legend>Would you?</legend>
-            <label><input value="choice-1" name="choice" type="radio">Yes</label>
-            <label><input value="choice-2" name="choice" type="radio">No</label>
+            <label><input value="choice-1" name="choice" type="radio" class="inline">Yes</label>
+            <label><input value="choice-2" name="choice" type="radio" class="inline">No</label>
             <label for="opinion">What do you think?
                 <textarea id="opinion" rows="3" cols="30" placeholder="Enter your opinion here"></textarea>
             </label>

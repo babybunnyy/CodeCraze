@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+}
+h1{
+    color: #ffffff;
+    font-family: "Press Start 2P", sans-serif;
+    border: 5px groove #e53bff; 
+    margin: 5%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 100px;
+}
+p,form {
+    width: 60vw;
+    max-width: 900px;
+    min-width: 500px;
+    margin: 0 auto;
+    padding: 1em;
+    border: 2.5px groove #e53bff;
+    border-radius: 60px;
+}
+p {
+    border-bottom: none;
+}
+label {
+    display: block;
+    margin: 6px;
+}
+input[type="submit"] {
+    color: #ffffff;
+    display: block;
+    width: 20%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1rem;
+    background-color: #e53bff3a;
+    min-width: 100px;
+    border-radius: 10px;
+    border-style:groove;
+    border-color: #ffffff;
+}
+input,  textarea,  select {
+    margin:10 0 0;
+    width: 100%;
+    min-height: 2em;
+    background-color: #e53bff3a;
+    border-color: #e53bff3a;
+    border-radius: 10px;
+}
+.inline {
+    width: unset;
+    margin: 0 0.7em 0 0;
+    vertical-align: bottom;
+    display: inline;
+}
