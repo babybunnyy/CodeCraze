@@ -1,0 +1,87 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+}
+
+header{
+    display: flex;
+    justify-content: end;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    color: beige;
+    margin-right: 20px;
+}
+
+nav {
+    display: flex;
+}
+
+#image {
+    max-width: 100%; /* Ensures the image container doesn't exceed the width of its parent */
+    display: block;
+    justify-content: center;
+    height: auto; /* Maintains the image's aspect ratio */
+}
+
+* {
+    background-color: 	#090727;
+    color:blanchedalmond;
+    font-family: "Lora","Press Start 2P";
+    font-style: oblique;
+}
+
+figcaption {
+    display: none;
+}
+
+figure:hover figcaption {
+    display: block;
+    padding: 10px;
+}
+
+h1, p {
+    padding: 10px;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h2 {
+    padding-left: 60px;
+    text-decoration:underline;
+}
+
+p {
+    padding: 0 25px;
+}
+
+section ul {
+    list-style:decimal;
+    padding: 0 125px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    color: darkgoldenrod;
+    font-weight: bolder;
+}
+
+#tribute-info {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
